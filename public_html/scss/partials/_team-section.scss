@@ -1,0 +1,34 @@
+//team section
+
+
+.team-section{
+    margin-bottom: 67px;
+
+    h2{
+        margin-bottom: 15px;
+    }
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel button.owl-dot{
+        background-color: $secondary;
+        //proveri
+        color: $secondary;
+    }
+    .team-members-slider{
+        border: 1px solid $secondary;
+        padding: 54px 95px;
+    
+    .team-member{
+        
+        .team-member-content{
+            padding: 35px 40px;
+
+            .team-member-name{
+                margin-bottom: 35px;
+                font-size: 3rem;
+                line-height: 2.7rem;
+            }
+        }
+    }
+    }
+}

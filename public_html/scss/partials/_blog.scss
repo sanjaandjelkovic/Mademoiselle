@@ -1,0 +1,37 @@
+
+.blog-page{
+    margin-bottom: 40px;
+}
+
+
+@media(min-width:992px){
+    .blog-page{
+        margin-bottom: 88px;
+    }
+}
+
+@media(min-width:992px){
+    .blog-items{
+        margin-bottom: 10px;
+        .trends-item{
+            margin-bottom: 95px;
+          
+        }
+    }
+}
+
+.pagination-section{
+    nav{
+        margin-bottom: 50px;
+        .page-scroll{
+            li a{
+                border: none;
+                font-family: $bodoni;
+                line-height: 2.4rem;
+                                
+            }
+        }
+    }
+}
+
+

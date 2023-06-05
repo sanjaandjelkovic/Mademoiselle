@@ -1,0 +1,74 @@
+.lead-section{
+    margin-bottom: 91px;
+}
+
+
+.about-section{
+    .about-lead-text{
+        p, figure{
+            margin-bottom: 66px;
+        }
+    }
+
+
+    .about-aside{
+        .search-form{
+            .form-group{
+                .input-group{
+                    border: 1px solid $primary;
+                }
+            }
+        }
+        .trends-item{
+            .trends-description{
+                position: absolute;
+                left: 25px;
+                right: 25px;
+                bottom: 1px;
+                padding-top: 5px;
+                background-color: $trends-background;
+                overflow: hidden;
+
+                .trends-description-date{
+                    margin-top: 25px;
+                    margin-bottom: 17px;
+                    font-size: 1.4rem;
+                    line-height: 1.7rem;
+
+                }
+                .trends-description-text{
+                    line-height: 2.4rem;
+
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:992px){
+    .about-section{
+
+        .about-aside{
+            .trends-item{
+                margin-bottom: 100px;
+                .trends-description{
+                    position: absolute;
+                    left: 25px;
+                    right: 25px;
+                    top: 164px;
+                    padding-top: 22px;
+                    background-color: $white;
+
+                    .trends-description-date{
+                        margin-top: 0px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+
+

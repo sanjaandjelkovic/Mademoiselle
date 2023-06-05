@@ -1,0 +1,59 @@
+
+
+
+header{
+    padding: 27px 0 !important;
+    .navbar{
+        
+   
+    .navbar-toggler{
+       margin-left: 5px;
+        span{
+            display: block;
+            width:30px;
+            height: 3px;
+            margin-bottom: 5px;
+            background-color: $secondary;
+
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .navbar-nav{
+        a{
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            padding: 5px;
+            text-align: center;
+            margin-left: 50px;
+            border-bottom: transparent;
+            text-decoration: none;
+            color: $primary;
+
+            &:hover,.active{
+                border-bottom: 1px solid $secondary;
+
+            }
+        }
+    }
+
+
+
+ }
+
+}
+
+@media(min-width:992px){
+    header{
+        .navbar{
+            .navbar-nav{
+              li a{
+                    margin-left: 72px;
+                }
+            }
+        }
+    }
+}
+

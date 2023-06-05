@@ -1,3 +1,4 @@
+$base-font: $lato;
 
 img{
     max-width: 100%;
@@ -6,3 +7,33 @@ img{
 html{
     font-size: 10px; // 1 rem
 }
+body{
+    font-family: $base-font;
+    color: $primary;
+}
+
+h2{
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+    font-weight: $font-weight-normal;
+}
+
+.bodoni-title{
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: 5px;
+    font-family: $bodoni;
+}
+
+
+.mademoiselle{
+    background-color: $secondary;
+}
+ .title-bottom{
+        display: block;
+        width: 74px;
+        height: 1px;
+        background-color: $secondary;
+        margin-bottom: 43px;
+            
+    }

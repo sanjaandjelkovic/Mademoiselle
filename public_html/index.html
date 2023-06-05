@@ -6,47 +6,286 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Enter WebSite title</title>
+        <title>Mademoiselle</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        
-        
+        <meta name="author" content="Sanja Andjelkovic">
+        <meta name="description" content="Mademoiselle-beauty site">
+        <meta name="keywords" content="beauty blog, beauty services, mademoiselle">
+
+
         <!--ios compatibility-->
         <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-title" content="Website title">
+        <meta name="apple-mobile-web-app-title" content="Mademoiselle">
         <link rel="apple-touch-icon" href="apple-icon-144x144.png">
-        
-        
+
+
         <!--Android compatibility-->
-        
+
         <meta name="mobile-web-app-capable" content="yes">
-        <meta name="application-name" content="WebSite title">
+        <meta name="application-name" content="Mademoiselle">
         <link rel="icon" type="image/png" href="android-icon-192x192.png">
-        
-        
+
+
         <!--CSS FILES-->
-        
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+
         <link href="css/theme.css" rel="stylesheet" type="text/css"/>
-        
-        
-        
+
+
+
     </head>
     <body>
-        
-        
-        
-        
-        
-        
-        
+        <header class="fixed-top bg-white py-2 py-xl-2">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="index.html"> 
+                        <img class="w-50" src="img/logo.png" alt=""/>
+                    </a>
+                    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="about.html">About<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="lead-section mb-5" style="background-image: url(img/welcome-img.png)">
+                <div class="container">
+                    <h1 class="text-center text-white lead-section-title">Welcome to <br> Mademoiselle</h1>
+                </div><!-- container end -->
+            </section><!-- lead end -->
+
+            <section class="trends-section">
+                <div class="container">
+                    <h2 class="trends-title bodoni-title">Stay Up with the Latest Beauty Trends</h2>
+                    <span class="title-bottom"></span> 
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                            <article class="trends-item position-relative">
+                                <a href="blog-single.html">
+                                    <figure class="trends-item-img">
+                                        <img src="img/trends/trends-1.png" alt=""/>
+                                    </figure>
+                                    <div class="trends-description text-center h-50">
+                                        <p class="trends-description-date"><i>07/13/2019</i></p>
+                                        <p class="trends-description-text text-uppercase">Welcome To The Online Best Model Winner Contest At Lookoftheyear</p>
+                                    </div>
+                                </a>
+                            </article>
+                        </div><!-- col end --> 
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                            <article class="trends-item position-relative">
+                                <a href="blog-single.html">
+                                    <figure class="trends-item-img">
+                                        <img src="img/trends/trends-2.png" alt=""/>
+                                    </figure>
+                                    <div class="trends-description text-center h-50">
+                                        <p class="trends-description-date"><i>05/15/2019</i></p>
+                                        <p class="trends-description-text text-uppercase">Aiming For Higher The <br> Mastopexy</p>
+                                    </div>
+                                </a>
+                            </article>
+                        </div><!-- col end --> 
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                            <article class="trends-item position-relative">
+                                <a href="blog-single.html">
+                                    <figure class="trends-item-img">
+                                        <img src="img/trends/trends-3.png" alt=""/>
+                                    </figure>
+                                    <div class="trends-description text-center h-50">
+                                        <p class="trends-description-date"><i>02/15/2019</i></p>
+                                        <p class="trends-description-text text-uppercase">Seven Steps For Keeping Teeth Healthy For A Lifetime</p>
+                                    </div>
+                                </a>
+                            </article>
+                        </div><!-- col end --> 
+                    </div><!-- row end -->
+                </div><!-- container end -->
+            </section><!-- trends end -->
+
+            <section class="services-section">
+                <div class="container">
+                    <h2 class="services-title text-uppercase bodoni-title">Our Services</h2>
+                    <span class="title-bottom"></span> 
+                    <div class="row no-gutters">
+                        <div class="services-description-item col-12 col-md-6 mb-4 mb-md-0 ">
+                            <article class="services-item h-100">
+                                <h2 class="text-uppercase mb-5">Lip augmentation Lip filling with hyaluronum</h2>
+                                <a href="services-single.html" class="btn btn-outline-primary">LEARN MORE</a>
+                            </article>
+                        </div><!-- col end -->
+                        <div class="col-12 col-md-6 mb-4 mb-md-0 ">
+                            <figure class="services-img h-100 mb-0">
+                                <img src="img/services/services-1.png" alt=""/>
+                            </figure>
+                        </div><!-- col end -->
+
+                        <div class="col-12 col-md-6 mb-4 mb-md-0 ">
+                            <figure class="services-img h-100 mb-0">
+                                <img src="img/services/services-2.png" alt=""/>
+                            </figure>
+                        </div><!-- col end -->
+                        <div class="services-description-item col-12 col-md-6 mb-4 mb-md-0 ">
+                            <article class="services-item h-100 mademoiselle">
+                                <h2 class="text-uppercase mb-5">male and female haircut</h2>
+                                <a href="services-single.html" class="btn btn-outline-primary">LEARN MORE</a>
+                            </article>
+                        </div><!-- col end -->
+
+                        <div class="services-description-item col-12 col-md-6 mb-4 mb-md-0 ">
+                            <article class="services-item h-100">
+                                <h2 class="text-uppercase mb-5">Day and night makeup</h2>
+                                <a href="services-single.html" class="btn btn-outline-primary">LEARN MORE</a>
+                            </article>
+                        </div><!-- col end -->
+                        <div class="col-12 col-md-6 mb-4 mb-md-0 ">
+                            <figure class="services-img h-100 mb-0">
+                                <img src="img/services/services-3.png" alt=""/>
+                            </figure>
+                        </div><!-- col end -->
+
+                        <div class="col-12 col-md-6 mb-4 mb-md-0 ">
+                            <figure class="services-img h-100 mb-0">
+                                <img src="img/services/services-4.png" alt=""/>
+                            </figure>
+                        </div><!-- col end -->
+                        <div class="services-description-item col-12 col-md-6 mb-4 mb-md-0 ">
+                            <article class="services-item h-100 mademoiselle">
+                                <h2 class="text-uppercase mb-5">Waxing with cold and warm wax</h2>
+                                <a href="services-single.html" class="btn btn-outline-primary">LEARN MORE</a>
+                            </article>
+                        </div><!-- col end -->
+
+                    </div><!-- row end -->
+                </div><!-- conteiner end -->
+            </section><!-- services end -->
+
+            <section class="team-section">
+                <div class="container">
+                    <h2 class="bodoni-title text-uppercase">Trust our professionals</h2>
+                    <span class="title-bottom"></span> 
+                    <ul class="team-members-slider owl-carousel owl-theme list-unstyled">
+                        <li class="team-member"> 
+                            <div class="row align-items-center">
+                                <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                                    <a href="eror-page.html" class="d-block team-member-img">
+                                        <img src="img/team/vera_valdez.png" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6 ">
+                                    <article class="team-member-content">
+                                        <h5 class="team-member-name">
+                                            <a href="eror-page.html" class="text-uppercase">Vera Valdez</a>
+                                        </h5>
+                                        <p class="team-member-info">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                            when an unknown printer took a galley of type and scrambled 
+                                            it to make a type specimen book. It has survived not only five centuries,
+                                            but also the leap into electronic typesetting, remaining essentially unchanged.
+                                        </p>
+                                    </article>
+                                </div>
+                            </div>
+                        </li><!-- li item end -->
+                        <li class="team-member"> 
+                            <div class="row align-items-center">
+                                <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                                    <a href="eror-page.html" class="d-block team-member-img">
+                                        <img src="img/team/vera_valdez.png" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6 ">
+                                    <article class="team-member-content">
+                                        <h5 class="team-member-name">
+                                            <a href="eror-page.html" class="text-uppercase">Vera Valdez</a>
+                                        </h5>
+                                        <p class="team-member-info">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                            when an unknown printer took a galley of type and scrambled 
+                                            it to make a type specimen book. It has survived not only five centuries,
+                                            but also the leap into electronic typesetting, remaining essentially unchanged.
+                                        </p>
+                                    </article>
+                                </div>
+                            </div>
+                        </li><!-- li item end -->
+                        <li class="team-member"> 
+                            <div class="row align-items-center">
+                                <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                                    <a href="eror-page.html" class="d-block team-member-img">
+                                        <img src="img/team/vera_valdez.png" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <article class="team-member-content">
+                                        <h5 class="team-member-name">
+                                            <a href="eror-page.html" class="text-uppercase">Vera Valdez</a>
+                                        </h5>
+                                        <p class="team-member-info">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                            when an unknown printer took a galley of type and scrambled 
+                                            it to make a type specimen book. It has survived not only five centuries,
+                                            but also the leap into electronic typesetting, remaining essentially unchanged.
+                                        </p>
+                                    </article>
+                                </div>
+                            </div>
+                        </li><!-- li item end -->
+                    </ul>
+                </div><!-- continer end -->
+            </section><!-- team end -->
+
+        </main>
+        <footer>
+            <div class="container text-center">
+
+                <nav class="social mb-4">
+                    <a href="https://facebook.com" class="fab fa-facebook-f mr-5"></a>
+                    <a href="https://twitter.com" class="fab fa-twitter mr-5"></a>
+                    <a href="https://instagram.com" class="fab fa-instagram"></a>
+                </nav>
+                <p class="copyright mb-0 small">Copyright &COPY; 2019 <a href="index.html">Mademoiselle</a></p>
+
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
-        
+
         <!--font awesome icons-->
         <script src="https://kit.fontawesome.com/85bd05dd45.js"></script>
+        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
         <script src="js/main.js" type="text/javascript"></script>
     </body>
 </html>

@@ -1,0 +1,47 @@
+
+.contact-page{
+    margin-top: 100px;
+    
+    .form-control{
+        background-color: rgba(#253D61,0.02);
+        border: none;
+        height: 50px !important;
+        line-height: 50px;
+        padding: 0 10px;
+    }
+    textarea.form-control{
+        height: 149px !important;
+        resize: none;
+    }
+    .error-msg *{
+        color: $danger;
+        font-size: 1.3rem;
+    }
+}
+
+@media(min-width:992px){
+   .contact-page{
+    margin-top: 140px;
+    margin-bottom: 110px;
+} 
+}
+
+
+
+.contact-data{
+    
+    margin-bottom: 46px;
+    .contact-data-text{
+        padding: 63px 0;
+        
+        p,a{
+            font-size: 2.4rem;
+            line-height: 2.5rem;
+            margin-bottom: 15px;
+        }
+    }
+    
+}
+
+
+

@@ -1,0 +1,80 @@
+$trends-background: rgba(256,256,256,0.8);
+
+.trends-section{
+    margin-bottom: 50px;
+
+    h2{
+        margin-bottom: 15px;
+        padding: 5px;
+
+    }
+
+
+    .trends-item{
+        .trends-description{
+            position: absolute;
+            left: 25px;
+            right: 25px;
+            bottom: 1px;
+            padding-top: 5px;
+            background-color: $trends-background;
+            overflow: hidden;
+
+            .trends-description-date{
+                margin-bottom: 17px;
+                font-size: 1.4rem;
+                line-height: 1.7rem;
+
+            }
+            .trends-description-text{
+                line-height: 2.4rem;
+
+            }
+        }
+    }
+}
+@media(min-width:420px){
+    .trends-section{
+        .trends-item{
+
+            .trends-description{
+                position: absolute;
+                left: 25px;
+                right: 25px;
+                top: 164px;
+                padding-top: 22px;
+                
+
+            }
+        }
+    }
+}
+
+
+@media(min-width:768px){
+    .trends-section{
+
+        .trends-item{
+            margin-bottom: 60px;
+            .trends-description{
+                background-color: $white;
+                .trends-description-date{
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:992px){
+    .trends-section{
+
+        .trends-item{
+            .trends-description{
+                .trends-description-date{
+                    margin-bottom: 17px;
+                }
+            }
+        }
+    }
+}
