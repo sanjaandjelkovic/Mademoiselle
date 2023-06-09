@@ -9911,6 +9911,10 @@ header {
   padding: 27px 0 !important;
 }
 
+header .navbar .navbar-brand {
+  max-width: 180px;
+}
+
 header .navbar .navbar-toggler {
   margin-left: 5px;
 }
@@ -9955,10 +9959,16 @@ header .navbar .navbar-nav a:hover, header .navbar .navbar-nav a .active {
 
 .lead-section .lead-section-title {
   padding: 218px 0;
-  font-size: 6rem;
+  font-size: 2rem;
   line-height: 8.4rem;
   letter-spacing: 20px;
   font-family: "Bodoni";
+}
+
+@media (min-width: 768px) {
+  .lead-section .lead-section-title {
+    font-size: 6rem;
+  }
 }
 
 .trends-section {
@@ -10031,7 +10041,13 @@ header .navbar .navbar-nav a:hover, header .navbar .navbar-nav a .active {
 }
 
 .services-section .services-description-item .services-item {
-  padding: 50px 95px;
+  padding: 50px 5px;
+}
+
+@media (min-width: 576px) {
+  .services-section .services-description-item .services-item {
+    padding: 50px 95px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -10082,7 +10098,7 @@ header .navbar .navbar-nav a:hover, header .navbar .navbar-nav a .active {
 
 .team-section .team-members-slider {
   border: 1px solid #ECD9D9;
-  padding: 54px 95px;
+  padding: 54px 5px;
 }
 
 .team-section .team-members-slider .team-member .team-member-content {
@@ -10093,6 +10109,12 @@ header .navbar .navbar-nav a:hover, header .navbar .navbar-nav a .active {
   margin-bottom: 35px;
   font-size: 3rem;
   line-height: 2.7rem;
+}
+
+@media (min-width: 576px) {
+  team-section .team-members-slider {
+    padding: 54px 95px;
+  }
 }
 
 footer {

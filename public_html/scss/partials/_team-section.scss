@@ -16,19 +16,27 @@
     }
     .team-members-slider{
         border: 1px solid $secondary;
-        padding: 54px 95px;
-    
-    .team-member{
         
-        .team-member-content{
-            padding: 35px 40px;
+        padding: 54px 5px;
+        .team-member{
 
-            .team-member-name{
-                margin-bottom: 35px;
-                font-size: 3rem;
-                line-height: 2.7rem;
+            .team-member-content{
+                padding: 35px 40px;
+
+                .team-member-name{
+                    margin-bottom: 35px;
+                    font-size: 3rem;
+                    line-height: 2.7rem;
+                }
             }
         }
     }
+}
+
+@media(min-width:576px){
+    team-section{
+        .team-members-slider{
+         padding: 54px 95px;   
+        }
     }
 }

@@ -4,7 +4,9 @@
 header{
     padding: 27px 0 !important;
     .navbar{
-        
+        .navbar-brand{
+            max-width: 180px;
+        }
    
     .navbar-toggler{
        margin-left: 5px;

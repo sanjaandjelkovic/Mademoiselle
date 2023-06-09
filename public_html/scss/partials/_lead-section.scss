@@ -7,14 +7,20 @@
 
     .lead-section-title{
         padding: 218px 0;
-        font-size: 6rem;
+        font-size: 2rem;
         line-height: 8.4rem;
         letter-spacing: 20px;
         font-family: $bodoni;
     }
 
 }
-
+@media(min-width: 768px){
+    .lead-section{
+        .lead-section-title{
+            font-size: 6rem;
+        }
+    }
+}
 
 
 

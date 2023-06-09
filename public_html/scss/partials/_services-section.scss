@@ -10,19 +10,29 @@
 
         .services-item{
 
-            padding: 50px 95px;
+            padding: 50px 5px;
         }
     }
 
 }
+@media(min-width:576px){
+    .services-section{
 
+        .services-description-item{
+            .services-item{
+              padding: 50px 95px;
+
+            }
+        }
+    }
+}
 
 @media(min-width:768px){
     .services-section{
 
         .services-description-item{
             .services-item{
-                padding: 25px;
+              padding: 25px;
 
             }
         }
